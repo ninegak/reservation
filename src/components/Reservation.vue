@@ -41,7 +41,7 @@
     <div class="input-group has-validation">
       <input type="text" class="form-control is-invalid" id="validationServer01" aria-describedby="inputGroupPrepend3 validationServer01Feedback" required>
       <div id="validationServer01Feedback" class="invalid-feedback">
-        Please choose a username.
+        Please choose a full name.
       </div>
     </div>
   </div>
@@ -51,7 +51,7 @@
       <input type="tel" class="form-control is-invalid" id="validationServer01" aria-describedby="inputGroupPrepend3 validationServer01Feedback" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="012-345-6789" required />
 >
       <div id="validationServer01Feedback" class="invalid-feedback">
-        Please choose a username.
+        Please choose a phone number.
       </div>
     </div>
   </div>
@@ -60,7 +60,16 @@
     <div class="input-group has-validation">
       <input type="number" class="form-control is-invalid" id="validationServer01" aria-describedby="inputGroupPrepend3 validationServer01Feedback" required>
       <div id="validationServer01Feedback" class="invalid-feedback">
-        Please choose a username.
+        Please choose a amount of the table.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label">Date</label>
+    <div class="input-group has-validation">
+      <input type="date" class="form-control is-invalid" id="validationServer01" aria-describedby="inputGroupPrepend3 validationServer01Feedback" required>
+      <div id="validationServer01Feedback" class="invalid-feedback">
+        Please choose a date.
       </div>
     </div>
   </div>
